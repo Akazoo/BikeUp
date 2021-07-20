@@ -4,7 +4,7 @@ The BikeUp application is a credit project for the Java Developer course at Code
 
 About:
 
-The application is built using Spring freamwork (Boot, Data JPA, Security, Web) and Maven. 
+The application is built using Spring freamwork (Boot, Data JPA, Form, Security, Web) and Maven. 
 It has elements from Java and Javascript. 
 JSP views and CSS are responsible for the visual design. 
 The application uses a MySQL database - 8 Dialect.
@@ -38,7 +38,7 @@ Aplikacja BikeUp jest projektem zaliczeniowym dla kursu Java Developer w szkole 
 
 O aplikacji:
 
-Aplikacja zbudowana jest z użyciem freamworka Spring (Boot, Data JPA, Security, Web) oraz Maven.
+Aplikacja zbudowana jest z użyciem freamworka Spring (Boot, Data JPA, Form, Security, Web) oraz Maven.
 Posiada elementy w jezyku Java oraz Javascript.
 Za oprawę wizualną opowiedzialne są widoki JSP oraz CSS.
 Aplikacja wykorzystuje bazę danych  MySQL -  8 Dialect.
