@@ -40,7 +40,7 @@ public class UserService {
                 .orElseThrow(() -> new ResourceNotFoundException("User with name: " + SecurityContextHolder.getContext().getAuthentication().getName() + " not exist"));
     }
 
-    public boolean existsByUsername(String username) {
+    public boolean exists(String username) {
         return userRepository.existsByUsername(username);
     }
 

@@ -26,7 +26,7 @@ public class Level {
 
         Map<String, String> level = new HashMap<>();
 
-        if (userPoints == null || userPoints == 0) {
+        if (userPoints == null || userPoints.equals(0L)) {
             level = levels.get(0);
 
         } else {

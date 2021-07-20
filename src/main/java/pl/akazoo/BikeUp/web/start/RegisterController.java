@@ -33,7 +33,7 @@ public class RegisterController {
         if (bindingResult.hasErrors()) {
             return "start/register";
         }
-        if (userService.existsByUsername(userRegistry.getLogin())) {
+        if (userService.exists(userRegistry.getLogin())) {
             bindingResult.rejectValue("login", null,"Podany login jest już zajęty.");
             return "start/register";
         }
