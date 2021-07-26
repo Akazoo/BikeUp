@@ -29,6 +29,7 @@ public class UserService {
         String encodedPassword = passwordEncoder.encode(user.getPassword());
         user.setPassword(encodedPassword);
         user.setRole("ROLE_USER");
+        user.setPersonalDataVisibility("hidden");
         log.debug("Zapisywany obiekt: " + user);
         userRepository.save(user);
         log.debug("Zapisano: " + user);

@@ -6,12 +6,15 @@
 <p>Uczestnicy wycieczki, która ma obyć się ${tour.date}.<br/>
 Id wycieczki : ${tour.id}</p><br/>
 <table border="1">
+    <thead>
     <tr>
         <th>Id</th>
         <th>Nazwa Użykownika</th>
         <th>Status</th>
         <th>Dostępne akcje</th>
     </tr>
+    </thead>
+<tbody>
     <c:forEach items="${members}" var="member">
         <tr>
             <th>${member.id}</th>
@@ -25,6 +28,7 @@ Id wycieczki : ${tour.id}</p><br/>
             </th>
         </tr>
     </c:forEach>
+</tbody>
 </table>
 <br/>
 <br/>

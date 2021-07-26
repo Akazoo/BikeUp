@@ -4,6 +4,7 @@
 <%@ include file="/WEB-INF/app/pageParts/header.jsp" %>
 <h1>Twoje wycieczki</h1><br/>
 <table border="1">
+    <thead>
     <tr>
         <th>Id</th>
         <th>Data</th>
@@ -15,6 +16,7 @@
         <th>Potwierdzeni uczestnicy</th>
         <th>Dostępne akcje</th>
     </tr>
+    </thead>
 </table>
 <script src="/scripts/userTourList.js" defer></script>
 <%@ include file="/WEB-INF/app/pageParts/footer.jsp" %>

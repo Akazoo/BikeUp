@@ -34,11 +34,13 @@ function renderUser(userId, username) {
 
 const head = document.createElement("tr");
 head.innerHTML = `
+<thead>
     <tr>
         <th>Id</th>
         <th>Nazwa użytkownika</th>
         <th>Dostępne akcje</th>
     </tr>
+    </thead>
 `
 document.querySelector("table").firstElementChild.before(head);
 

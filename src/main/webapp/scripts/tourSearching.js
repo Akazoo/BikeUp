@@ -55,6 +55,7 @@ function renderTour(tourId, startPlace, startPostalCode, endPlace, endPostalCode
 
 const head = document.createElement("tr");
 head.innerHTML = `
+<thead>
     <tr>
         <th>Id</th>
         <th>Data</th>
@@ -66,6 +67,7 @@ head.innerHTML = `
         <th>Potwierdzeni uczestnicy</th>
         <th>Dostępne akcje</th>
     </tr>
+    <thead>
 `
 document.querySelector("table").firstElementChild.before(head);
 

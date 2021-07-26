@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BikeUp</title>
     <style><%@include file="/css/appStyle.css"%></style>
+    <link rel="Shortcut icon" href="<c:url value="/images/193240896_311767273863710_3235863038840980410_n.png"/>" />
     <script src="http://code.jquery.com/jquery-1.10.2.js" defer></script>
     <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js" defer></script>
     <script src="/scripts/hamburgerMenu.js" defer></script>
@@ -35,7 +36,7 @@
         <li class="navigation__item"><a href="/app/profile">Twój profil</a></li>
         <li class="navigation__item"><a href="/app/rules">Zasady aplikacji</a></li>
         <li class="navigation__item"><a href="/logout">Wyloguj</a></li>
-        <li class="navigation__item"><span class="panel">Copyright BikeUp.pl</span></li>
+        <li class="navigation__item"><span class="panel">Copyright &copy; 2021 BikeUp.pl</span></li>
     </ul>
 </div>
 <div class="mainApp" style="overflow: auto">

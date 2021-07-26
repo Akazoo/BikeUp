@@ -7,6 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <title>BikeUp</title>
+    <link rel="Shortcut icon" href="<c:url value="/images/193240896_311767273863710_3235863038840980410_n.png"/>" />
     <style><%@include file="/css/style.css"%></style>
 </head>
 <body>

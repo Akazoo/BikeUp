@@ -5,6 +5,7 @@
 <h1>Szczegóły wycieczki</h1><br/>
 <p>Id wycieczki: ${details.id}</p>
 <table border="1">
+    <thead>
     <tr>
         <th>Miejsce zbiórki</th>
         <th>Opis wycieczki</th>
@@ -12,6 +13,8 @@
         <th>Mapa</th>
 
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>${details.gatheringPlace}</td>
         <td>${details.description}</td>
@@ -20,6 +23,7 @@
         </c:if>
         </td>
     </tr>
+    </tbody>
 </table>
 <br/>
 <br/>

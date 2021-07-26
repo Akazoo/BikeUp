@@ -1,4 +1,4 @@
-package pl.akazoo.BikeUp.web;
+package pl.akazoo.BikeUp;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.ui.Model;

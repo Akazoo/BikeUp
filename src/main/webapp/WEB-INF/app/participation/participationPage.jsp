@@ -5,6 +5,7 @@
 <h1>Wycieczki w których uczestniczysz:</h1><br/>
 
 <table border="1">
+    <thead>
     <tr>
         <th>Id</th>
         <th>Data</th>
@@ -17,6 +18,8 @@
         <th>Twój status</th>
         <th>Dostępne akcje</th>
     </tr>
+    </thead>
+    <tbody>
     <c:forEach items="${tours}" var="tour">
         <tr>
             <td>${tour.key.id}</td>
@@ -40,5 +43,6 @@
             </td>
         </tr>
     </c:forEach>
+    </tbody>
 </table>
 <%@ include file="/WEB-INF/app/pageParts/footer.jsp" %>

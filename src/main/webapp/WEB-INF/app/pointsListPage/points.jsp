@@ -8,11 +8,14 @@
 </div>
 <p>Punkty zdobyte w tym roku:</p>
 <table border="1">
+    <thead>
     <tr>
         <th>Id trasy</th>
         <th>Ilość</th>
         <th>Opis</th>
     </tr>
+    </thead>
+    <tbody>
     <c:forEach items="${points}" var="point">
         <tr>
             <th>${point.tour.id}</th>
@@ -20,5 +23,6 @@
             <th>${point.description}</th>
         </tr>
     </c:forEach>
+    </tbody>
 </table>
 <%@ include file="/WEB-INF/app/pageParts/footer.jsp" %>

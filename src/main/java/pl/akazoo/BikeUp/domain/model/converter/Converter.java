@@ -22,7 +22,6 @@ public class Converter {
         User user = new User();
         user.setUsername(userRegistry.getLogin());
         user.setPassword(userRegistry.getPassword());
-        user.setPersonalDataVisibility("hidden");
         return user;
     }
 

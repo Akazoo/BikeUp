@@ -7,10 +7,13 @@
     Id wycieczki : ${tour.id}</p><br/>
 
 <table border="1">
+    <thead>
     <tr>
         <th>Użytkownik</th>
         <th>Dostępne akcje</th>
     </tr>
+    </thead>
+    <tbody>
     <c:forEach items="${members}" var="member">
         <c:if test="${member.status == 'aktywny'}">
         <tr>
@@ -19,6 +22,7 @@
         </tr>
         </c:if>
     </c:forEach>
+    </tbody>
 </table>
 <br/>
 <br/>
