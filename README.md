@@ -49,7 +49,7 @@ czy planujesz wycieczkę na lody do sąsiedniego miasta - to miejsce jest dla Ci
 
 Funkcjonalności:
 
-- Aktulane:
+- Aktualne:
 1. Tworzenie  oraz zarządzanie trasami/wycieczkami do których każdy użytkownik może dołączyć,
 2. System punktowy - każdy użytkownik zdobywa punkty za odbyte trasy. Są one przyznawane przez innych uczestników wycieczki,
 3. Ciekawostki ze świata rowerów,
@@ -60,7 +60,7 @@ Funkcjonalności:
 
 - Planowane:
 1. Dodawanie oraz przeglądanie sukcesów użytkowników (dodanie własnego zdjęcia oraz opisu),
-2. Informacja odnośnie pogody odpowiedniej dla mniejsca pobytu,
+2. Informacja odnośnie pogody odpowiedniej dla miejsca pobytu,
 3. Możliwość wysyłania wiadomości do użytkowników,
 4. Przegląd punktów z zeszłych lat,
 5. Komunikaty o zmianie stanu tras/wycieczek (prośby o dołączenie,edycja),
