@@ -2,6 +2,7 @@ package pl.akazoo.BikeUp.domain.model.converter;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import pl.akazoo.BikeUp.domain.dto.*;
 import pl.akazoo.BikeUp.domain.model.tour.Tour;
@@ -17,11 +18,15 @@ public class Converter {
 
     private final UserService userService;
     private final TourService tourService;
+    private final PasswordEncoder passwordEncoder;
 
     public User userRegistryToUser(UserRegistry userRegistry) {
         User user = new User();
         user.setUsername(userRegistry.getLogin());
-        user.setPassword(userRegistry.getPassword());
+        String encodedPassword = passwordEncoder.encode(userRegistry.getPassword());
+        user.setPassword(encodedPassword);
+        user.setRole("ROLE_USER");
+        user.setPersonalDataVisibility("hidden");
         return user;
     }
 

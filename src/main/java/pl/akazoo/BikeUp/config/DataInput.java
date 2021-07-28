@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import pl.akazoo.BikeUp.domain.model.user.Point;
@@ -21,6 +22,7 @@ public class DataInput {
 
     private final UserService userService;
     private final PointsService pointsService;
+    private final PasswordEncoder passwordEncoder;
 
     @EventListener
     @Transactional
@@ -30,7 +32,8 @@ public class DataInput {
             //
             User user = new User();
             user.setUsername("aa");
-            user.setPassword("aa");
+            String encodedPassword = passwordEncoder.encode("aa");
+            user.setPassword(encodedPassword);
             user.setRole("ROLE_USER");
             user.setPersonalDataVisibility("hidden");
             userService.save(user);

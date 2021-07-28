@@ -14,7 +14,6 @@
     <li>Techniczne : <br/>
         - przyciski powrót(do poprzedniej strony, nie link)<br/>
         - zerowanie punktów wraz z nowym rokiem kalendarzowym<br/>
-        - przy zmianie imienia i nazwiska nie przechodzi logowania(?)
     </li>
 </ul>
 <%@ include file="/WEB-INF/app/pageParts/footer.jsp" %>

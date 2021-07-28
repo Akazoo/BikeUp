@@ -26,10 +26,6 @@ public class UserService {
     }
 
     public void save(User user) {
-        String encodedPassword = passwordEncoder.encode(user.getPassword());
-        user.setPassword(encodedPassword);
-        user.setRole("ROLE_USER");
-        user.setPersonalDataVisibility("hidden");
         log.debug("Zapisywany obiekt: " + user);
         userRepository.save(user);
         log.debug("Zapisano: " + user);
@@ -52,5 +48,4 @@ public class UserService {
     public List<User> findAll() {
         return userRepository.findAll();
     }
-
 }
