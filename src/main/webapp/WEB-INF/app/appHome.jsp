@@ -14,6 +14,7 @@
     <li>Techniczne : <br/>
         - przyciski powrót(do poprzedniej strony, nie link)<br/>
         - zerowanie punktów wraz z nowym rokiem kalendarzowym<br/>
+        - potrzebny refactor czesci strony
     </li>
 </ul>
 <%@ include file="/WEB-INF/app/pageParts/footer.jsp" %>

@@ -35,6 +35,7 @@
         <li class="navigation__item"><a href="/app/participation">Uczestnictwo w trasach</a></li>
         <li class="navigation__item"><a href="/app/profile">Twój profil</a></li>
         <li class="navigation__item"><a href="/app/rules">Zasady aplikacji</a></li>
+        <li class="navigation__item"><a href="/app/contact">Kontakt</a></li>
         <li class="navigation__item"><a href="/logout">Wyloguj</a></li>
         <li class="navigation__item"><span class="panel">Copyright &copy; 2021 BikeUp.pl</span></li>
     </ul>
