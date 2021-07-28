@@ -20,7 +20,7 @@ Features:
 3. Interesting facts from the world of bicycles,
 4. Dynamic user search by login,
 5. Dynamic tour search by phrase,
-6. Your own account with the possibility of hiding your data,
+6. Your own account with the possibility of hiding your data and editing them,
 7. Additional window with current date and time.
 
 - In the nearest future:
@@ -31,6 +31,7 @@ Features:
 4. Review of points from previous years,
 5. Notification of tour status changes (join request, edit),
 6. Advanced trip searching.
+7. Password validation.
 
 Polish transcription :
 
@@ -55,8 +56,9 @@ Funkcjonalności:
 3. Ciekawostki ze świata rowerów,
 4. Dynamiczne wyszukiwanie użytkowników po loginie,
 5. Dynamiczne wyszukiwanie tras po wpisanej frazie,
-6. Własne konto z możliwością ukrycia swoich danych,
-7. Dodatkowe okno z aktualna datą oraz godziną.
+6. Własne konto z możliwością ukrycia swoich danych oraz edytowania ich,
+7. Dodatkowe okno z aktualna datą oraz godziną,
+8. Walidacja hasła.
 
 - Planowane:
 1. Dodawanie oraz przeglądanie sukcesów użytkowników (dodanie własnego zdjęcia oraz opisu),
