@@ -14,7 +14,9 @@
     <li>Techniczne : <br/>
         - przyciski powrót(do poprzedniej strony, nie link)<br/>
         - zerowanie punktów wraz z nowym rokiem kalendarzowym<br/>
-        - potrzebny refactor czesci strony
+        - potrzebny refactor czesci strony <br/>
+        - message.properties <br/>
+        @RequestHeader ("Referer") String referer
     </li>
 </ul>
 <%@ include file="/WEB-INF/app/pageParts/footer.jsp" %>

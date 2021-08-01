@@ -4,10 +4,11 @@ The BikeUp application is a credit project for the Java Developer course at Code
 
 About:
 
-The application is built using Spring freamwork (Boot, Data JPA, Form, Security, Web) and Maven. 
+The application is built using Spring framework (Boot, Data JPA, Form, Security, Web) and Maven. 
 It has elements from Java and Javascript. 
 JSP views and CSS are responsible for the visual design. 
 The application uses a MySQL database - 8 Dialect.
+Validation via java.
 
 BikeUp is a portal connecting cycling enthusiasts. It doesn't matter if you're a pro and looking for a training partner, or if you're planning a trip to the neighboring town for ice cream -  this is the perfect place for you!
 
@@ -22,6 +23,7 @@ Features:
 5. Dynamic tour search by phrase,
 6. Your own account with the possibility of hiding your data and editing them,
 7. Additional window with current date and time.
+8. Password validation.
 
 - In the nearest future:
 
@@ -30,8 +32,8 @@ Features:
 3. Possibility to send messages to users,
 4. Review of points from previous years,
 5. Notification of tour status changes (join request, edit),
-6. Advanced trip searching.
-7. Password validation.
+6. Advanced trip searching,
+7. Contact form.
 
 Polish transcription :
 
@@ -39,10 +41,11 @@ Aplikacja BikeUp jest projektem zaliczeniowym dla kursu Java Developer w szkole 
 
 O aplikacji:
 
-Aplikacja zbudowana jest z użyciem freamworka Spring (Boot, Data JPA, Form, Security, Web) oraz Maven.
+Aplikacja zbudowana jest z użyciem frameworka Spring (Boot, Data JPA, Form, Security, Web) oraz Maven.
 Posiada elementy w jezyku Java oraz Javascript.
 Za oprawę wizualną opowiedzialne są widoki JSP oraz CSS.
 Aplikacja wykorzystuje bazę danych  MySQL -  8 Dialect.
+Walidacja poprzez Java.
 
 BikeUp to potrtal łączacy entuzjastów wycieczek rowerowych. 
 Nie ma znaczenia czy jesteś zawodowcem i szukasz partnera do treningów, 
@@ -66,4 +69,5 @@ Funkcjonalności:
 3. Możliwość wysyłania wiadomości do użytkowników,
 4. Przegląd punktów z zeszłych lat,
 5. Komunikaty o zmianie stanu tras/wycieczek (prośby o dołączenie,edycja),
-6. Zaawansowane wyszukiwanie wycieczek.
+6. Zaawansowane wyszukiwanie wycieczek,
+7. Formularz kontaktowy.
