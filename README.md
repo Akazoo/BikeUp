@@ -22,8 +22,8 @@ Features:
 4. Dynamic user search by login,
 5. Dynamic tour search by phrase,
 6. Your own account with the possibility of hiding your data and editing them,
-7. Additional window with current date and time.
-8. Password validation.
+7. Additional window with current date and time,
+8. User registration with password and name validation.
 
 - In the nearest future:
 
@@ -61,7 +61,7 @@ Funkcjonalności:
 5. Dynamiczne wyszukiwanie tras po wpisanej frazie,
 6. Własne konto z możliwością ukrycia swoich danych oraz edytowania ich,
 7. Dodatkowe okno z aktualna datą oraz godziną,
-8. Walidacja hasła.
+8. Rejestracja użytkownika z walidacja hasła oraz nazwy.
 
 - Planowane:
 1. Dodawanie oraz przeglądanie sukcesów użytkowników (dodanie własnego zdjęcia oraz opisu),
